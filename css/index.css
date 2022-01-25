@@ -99,7 +99,7 @@ p {
 }
 
 body {
-  background-color: #fffafa;
+  background-color: #495867;
 }
 
 main {
@@ -118,46 +118,46 @@ section {
   justify-content: center;
 }
 
-@media only screen and (min-device-width: 675px) {
+@media only screen and (min-width: 675px) {
   body {
     background-color: #474056;
   }
 }
 
-@media only screen and (min-device-width: 999px) {
+@media only screen and (min-width: 999px) {
   body {
     background-color: #664e4c;
   }
 }
 
-@media only screen and (min-device-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   body {
     background-color: #c3baba;
   }
 }
 
-@media only screen and (max-device-width: 1080px) {
+@media only screen and (max-width: 1080px) {
   h1,
   p {
     color: #f9d4bb;
   }
 }
 
-@media only screen and (max-device-width: 550px) {
+@media only screen and (max-width: 550px) {
   h1,
   p {
     color: #ea7ef4;
   }
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-width: 400px) {
   h1,
   p {
     color: #e83151;
   }
 }
 
-@media only screen and (min-device-width: 716px) and (max-device-width: 959px) {
+@media only screen and (min-width: 716px) and (max-width: 959px) {
   p {
     font-family: "Varela Round", sans-serif;
   }
